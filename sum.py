@@ -8,10 +8,11 @@ def sum_nums(nums):
       10
     """  
 
-    # Python has a built-in function `sum()` for this, but we don't
-    # want you to use it. Please write this by hand.
+    sum = 0
 
-    # YOUR CODE HERE
+    for num in nums:
+        sum = sum + num
+    return sum
 
 
 print("sum_nums returned", sum_nums([1, 2, 3, 4]))
